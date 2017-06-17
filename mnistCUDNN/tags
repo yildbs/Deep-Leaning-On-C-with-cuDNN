@@ -1,0 +1,461 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALL_CCFLAGS	Makefile	/^ALL_CCFLAGS :=$/;"	m
+ALL_LDFLAGS	Makefile	/^ALL_LDFLAGS :=$/;"	m
+ARGET_OS	Makefile	/^override TARGET_OS := qnx$/;"	m
+BITMAPINFO	FreeImage/include/FreeImage.h	/^} BITMAPINFO, *PBITMAPINFO;$/;"	t	typeref:struct:tagBITMAPINFO
+BITMAPINFOHEADER	FreeImage/include/FreeImage.h	/^} BITMAPINFOHEADER, *PBITMAPINFOHEADER;$/;"	t	typeref:struct:tagBITMAPINFOHEADER
+BMP_DEFAULT	FreeImage/include/FreeImage.h	705;"	d
+BMP_SAVE_RLE	FreeImage/include/FreeImage.h	706;"	d
+BOOL	FreeImage/include/FreeImage.h	/^typedef int32_t BOOL;$/;"	t
+BOOL	FreeImage/include/FreeImage.h	/^typedef long BOOL;$/;"	t
+BUILD_TYPE	Makefile	/^      BUILD_TYPE := debug$/;"	m
+BUILD_TYPE	Makefile	/^      BUILD_TYPE := release$/;"	m
+BYTE	FreeImage/include/FreeImage.h	/^typedef uint8_t BYTE;$/;"	t
+BYTE	FreeImage/include/FreeImage.h	/^typedef unsigned char BYTE;$/;"	t
+CCFLAGS	Makefile	/^CCFLAGS     :=$/;"	m
+COMPILER_NAME	error_util.h	23;"	d
+COMPILER_NAME	error_util.h	27;"	d
+COMPILER_NAME	error_util.h	29;"	d
+COMPILER_NAME	error_util.h	31;"	d
+COMPILER_NAME	error_util.h	33;"	d
+COMPILER_NAME	error_util.h	35;"	d
+COMPILER_NAME	error_util.h	37;"	d
+COMPILER_NAME	error_util.h	39;"	d
+COMPILER_NAME	error_util.h	43;"	d
+COMPILER_NAME	error_util.h	46;"	d
+COMPILER_NAME	error_util.h	49;"	d
+COMPILER_VER	error_util.h	24;"	d
+COMPILER_VER	error_util.h	41;"	d
+COMPILER_VER	error_util.h	44;"	d
+COMPILER_VER	error_util.h	47;"	d
+COMPILER_VER	error_util.h	50;"	d
+CUDA_PATH	Makefile	/^CUDA_PATH ?= \/usr\/local\/cuda$/;"	m
+CUDA_R_16F	gemv.h	84;"	d
+CUDNN_VERSION_STR	error_util.h	53;"	d
+CUT_DEFAULT	FreeImage/include/FreeImage.h	707;"	d
+Convert	mnistCUDNN.cpp	/^class Convert$/;"	c	file:
+Convert	mnistCUDNN.cpp	/^class Convert<half1>$/;"	c	file:
+DDS_DEFAULT	FreeImage/include/FreeImage.h	708;"	d
+DLL_API	FreeImage/include/FreeImage.h	65;"	d
+DLL_API	FreeImage/include/FreeImage.h	77;"	d
+DLL_API	FreeImage/include/FreeImage.h	79;"	d
+DLL_API	FreeImage/include/FreeImage.h	90;"	d
+DLL_API	FreeImage/include/FreeImage.h	92;"	d
+DLL_CALLCONV	FreeImage/include/FreeImage.h	66;"	d
+DLL_CALLCONV	FreeImage/include/FreeImage.h	69;"	d
+DLL_CALLCONV	FreeImage/include/FreeImage.h	88;"	d
+DWORD	FreeImage/include/FreeImage.h	/^typedef uint32_t DWORD;$/;"	t
+DWORD	FreeImage/include/FreeImage.h	/^typedef unsigned long DWORD;$/;"	t
+EXEC	Makefile	/^EXEC ?= @echo "[@]"$/;"	m
+EXIT_WAIVED	mnistCUDNN.cpp	58;"	d	file:
+EXR_B44	FreeImage/include/FreeImage.h	715;"	d
+EXR_DEFAULT	FreeImage/include/FreeImage.h	709;"	d
+EXR_FLOAT	FreeImage/include/FreeImage.h	710;"	d
+EXR_LC	FreeImage/include/FreeImage.h	716;"	d
+EXR_NONE	FreeImage/include/FreeImage.h	711;"	d
+EXR_PIZ	FreeImage/include/FreeImage.h	713;"	d
+EXR_PXR24	FreeImage/include/FreeImage.h	714;"	d
+EXR_ZIP	FreeImage/include/FreeImage.h	712;"	d
+FALSE	FreeImage/include/FreeImage.h	152;"	d
+FAXG3_DEFAULT	FreeImage/include/FreeImage.h	717;"	d
+FI16_555_BLUE_MASK	FreeImage/include/FreeImage.h	379;"	d
+FI16_555_BLUE_SHIFT	FreeImage/include/FreeImage.h	382;"	d
+FI16_555_GREEN_MASK	FreeImage/include/FreeImage.h	378;"	d
+FI16_555_GREEN_SHIFT	FreeImage/include/FreeImage.h	381;"	d
+FI16_555_RED_MASK	FreeImage/include/FreeImage.h	377;"	d
+FI16_555_RED_SHIFT	FreeImage/include/FreeImage.h	380;"	d
+FI16_565_BLUE_MASK	FreeImage/include/FreeImage.h	385;"	d
+FI16_565_BLUE_SHIFT	FreeImage/include/FreeImage.h	388;"	d
+FI16_565_GREEN_MASK	FreeImage/include/FreeImage.h	384;"	d
+FI16_565_GREEN_SHIFT	FreeImage/include/FreeImage.h	387;"	d
+FI16_565_RED_MASK	FreeImage/include/FreeImage.h	383;"	d
+FI16_565_RED_SHIFT	FreeImage/include/FreeImage.h	386;"	d
+FICOMPLEX	FreeImage/include/FreeImage.h	/^} FICOMPLEX;$/;"	t	typeref:struct:tagFICOMPLEX
+FIICC_COLOR_IS_CMYK	FreeImage/include/FreeImage.h	393;"	d
+FIICC_DEFAULT	FreeImage/include/FreeImage.h	392;"	d
+FIRGB16	FreeImage/include/FreeImage.h	/^} FIRGB16;$/;"	t	typeref:struct:tagFIRGB16
+FIRGBA16	FreeImage/include/FreeImage.h	/^} FIRGBA16;$/;"	t	typeref:struct:tagFIRGBA16
+FIRGBAF	FreeImage/include/FreeImage.h	/^} FIRGBAF;$/;"	t	typeref:struct:tagFIRGBAF
+FIRGBF	FreeImage/include/FreeImage.h	/^} FIRGBF;$/;"	t	typeref:struct:tagFIRGBF
+FI_COLOR_ALPHA_IS_INDEX	FreeImage/include/FreeImage.h	790;"	d
+FI_COLOR_FIND_EQUAL_COLOR	FreeImage/include/FreeImage.h	789;"	d
+FI_COLOR_IS_RGBA_COLOR	FreeImage/include/FreeImage.h	788;"	d
+FI_COLOR_IS_RGB_COLOR	FreeImage/include/FreeImage.h	787;"	d
+FI_COLOR_PALETTE_SEARCH_MASK	FreeImage/include/FreeImage.h	791;"	d
+FI_CloseProc	FreeImage/include/FreeImage.h	/^typedef void (DLL_CALLCONV *FI_CloseProc)(FreeImageIO *io, fi_handle handle, void *data);$/;"	t
+FI_DEFAULT	FreeImage/include/FreeImage.h	122;"	d
+FI_DEFAULT	FreeImage/include/FreeImage.h	126;"	d
+FI_DescriptionProc	FreeImage/include/FreeImage.h	/^typedef const char *(DLL_CALLCONV *FI_DescriptionProc)(void);$/;"	t
+FI_ENUM	FreeImage/include/FreeImage.h	/^FI_ENUM(FREE_IMAGE_COLOR_CHANNEL)$/;"	f
+FI_ENUM	FreeImage/include/FreeImage.h	/^FI_ENUM(FREE_IMAGE_COLOR_TYPE)$/;"	f
+FI_ENUM	FreeImage/include/FreeImage.h	/^FI_ENUM(FREE_IMAGE_DITHER)$/;"	f
+FI_ENUM	FreeImage/include/FreeImage.h	/^FI_ENUM(FREE_IMAGE_FILTER)$/;"	f
+FI_ENUM	FreeImage/include/FreeImage.h	/^FI_ENUM(FREE_IMAGE_FORMAT)$/;"	f
+FI_ENUM	FreeImage/include/FreeImage.h	/^FI_ENUM(FREE_IMAGE_JPEG_OPERATION)$/;"	f
+FI_ENUM	FreeImage/include/FreeImage.h	/^FI_ENUM(FREE_IMAGE_MDMODEL)$/;"	f
+FI_ENUM	FreeImage/include/FreeImage.h	/^FI_ENUM(FREE_IMAGE_MDTYPE)$/;"	f
+FI_ENUM	FreeImage/include/FreeImage.h	/^FI_ENUM(FREE_IMAGE_QUANTIZE)$/;"	f
+FI_ENUM	FreeImage/include/FreeImage.h	/^FI_ENUM(FREE_IMAGE_TMO)$/;"	f
+FI_ENUM	FreeImage/include/FreeImage.h	/^FI_ENUM(FREE_IMAGE_TYPE)$/;"	f
+FI_ENUM	FreeImage/include/FreeImage.h	123;"	d
+FI_ENUM	FreeImage/include/FreeImage.h	127;"	d
+FI_ExtensionListProc	FreeImage/include/FreeImage.h	/^typedef const char *(DLL_CALLCONV *FI_ExtensionListProc)(void);$/;"	t
+FI_FormatProc	FreeImage/include/FreeImage.h	/^typedef const char *(DLL_CALLCONV *FI_FormatProc)(void);$/;"	t
+FI_InitProc	FreeImage/include/FreeImage.h	/^typedef void (DLL_CALLCONV *FI_InitProc)(Plugin *plugin, int format_id);$/;"	t
+FI_LoadProc	FreeImage/include/FreeImage.h	/^typedef FIBITMAP *(DLL_CALLCONV *FI_LoadProc)(FreeImageIO *io, fi_handle handle, int page, int flags, void *data);$/;"	t
+FI_MimeProc	FreeImage/include/FreeImage.h	/^typedef const char *(DLL_CALLCONV *FI_MimeProc)(void);$/;"	t
+FI_OpenProc	FreeImage/include/FreeImage.h	/^typedef void *(DLL_CALLCONV *FI_OpenProc)(FreeImageIO *io, fi_handle handle, BOOL read);$/;"	t
+FI_PageCapabilityProc	FreeImage/include/FreeImage.h	/^typedef int (DLL_CALLCONV *FI_PageCapabilityProc)(FreeImageIO *io, fi_handle handle, void *data);$/;"	t
+FI_PageCountProc	FreeImage/include/FreeImage.h	/^typedef int (DLL_CALLCONV *FI_PageCountProc)(FreeImageIO *io, fi_handle handle, void *data);$/;"	t
+FI_RGBA_ALPHA	FreeImage/include/FreeImage.h	317;"	d
+FI_RGBA_ALPHA	FreeImage/include/FreeImage.h	331;"	d
+FI_RGBA_ALPHA	FreeImage/include/FreeImage.h	347;"	d
+FI_RGBA_ALPHA	FreeImage/include/FreeImage.h	361;"	d
+FI_RGBA_ALPHA_MASK	FreeImage/include/FreeImage.h	321;"	d
+FI_RGBA_ALPHA_MASK	FreeImage/include/FreeImage.h	335;"	d
+FI_RGBA_ALPHA_MASK	FreeImage/include/FreeImage.h	351;"	d
+FI_RGBA_ALPHA_MASK	FreeImage/include/FreeImage.h	365;"	d
+FI_RGBA_ALPHA_SHIFT	FreeImage/include/FreeImage.h	325;"	d
+FI_RGBA_ALPHA_SHIFT	FreeImage/include/FreeImage.h	339;"	d
+FI_RGBA_ALPHA_SHIFT	FreeImage/include/FreeImage.h	355;"	d
+FI_RGBA_ALPHA_SHIFT	FreeImage/include/FreeImage.h	369;"	d
+FI_RGBA_BLUE	FreeImage/include/FreeImage.h	316;"	d
+FI_RGBA_BLUE	FreeImage/include/FreeImage.h	330;"	d
+FI_RGBA_BLUE	FreeImage/include/FreeImage.h	346;"	d
+FI_RGBA_BLUE	FreeImage/include/FreeImage.h	360;"	d
+FI_RGBA_BLUE_MASK	FreeImage/include/FreeImage.h	320;"	d
+FI_RGBA_BLUE_MASK	FreeImage/include/FreeImage.h	334;"	d
+FI_RGBA_BLUE_MASK	FreeImage/include/FreeImage.h	350;"	d
+FI_RGBA_BLUE_MASK	FreeImage/include/FreeImage.h	364;"	d
+FI_RGBA_BLUE_SHIFT	FreeImage/include/FreeImage.h	324;"	d
+FI_RGBA_BLUE_SHIFT	FreeImage/include/FreeImage.h	338;"	d
+FI_RGBA_BLUE_SHIFT	FreeImage/include/FreeImage.h	354;"	d
+FI_RGBA_BLUE_SHIFT	FreeImage/include/FreeImage.h	368;"	d
+FI_RGBA_GREEN	FreeImage/include/FreeImage.h	315;"	d
+FI_RGBA_GREEN	FreeImage/include/FreeImage.h	329;"	d
+FI_RGBA_GREEN	FreeImage/include/FreeImage.h	345;"	d
+FI_RGBA_GREEN	FreeImage/include/FreeImage.h	359;"	d
+FI_RGBA_GREEN_MASK	FreeImage/include/FreeImage.h	319;"	d
+FI_RGBA_GREEN_MASK	FreeImage/include/FreeImage.h	333;"	d
+FI_RGBA_GREEN_MASK	FreeImage/include/FreeImage.h	349;"	d
+FI_RGBA_GREEN_MASK	FreeImage/include/FreeImage.h	363;"	d
+FI_RGBA_GREEN_SHIFT	FreeImage/include/FreeImage.h	323;"	d
+FI_RGBA_GREEN_SHIFT	FreeImage/include/FreeImage.h	337;"	d
+FI_RGBA_GREEN_SHIFT	FreeImage/include/FreeImage.h	353;"	d
+FI_RGBA_GREEN_SHIFT	FreeImage/include/FreeImage.h	367;"	d
+FI_RGBA_RED	FreeImage/include/FreeImage.h	314;"	d
+FI_RGBA_RED	FreeImage/include/FreeImage.h	328;"	d
+FI_RGBA_RED	FreeImage/include/FreeImage.h	344;"	d
+FI_RGBA_RED	FreeImage/include/FreeImage.h	358;"	d
+FI_RGBA_RED_MASK	FreeImage/include/FreeImage.h	318;"	d
+FI_RGBA_RED_MASK	FreeImage/include/FreeImage.h	332;"	d
+FI_RGBA_RED_MASK	FreeImage/include/FreeImage.h	348;"	d
+FI_RGBA_RED_MASK	FreeImage/include/FreeImage.h	362;"	d
+FI_RGBA_RED_SHIFT	FreeImage/include/FreeImage.h	322;"	d
+FI_RGBA_RED_SHIFT	FreeImage/include/FreeImage.h	336;"	d
+FI_RGBA_RED_SHIFT	FreeImage/include/FreeImage.h	352;"	d
+FI_RGBA_RED_SHIFT	FreeImage/include/FreeImage.h	366;"	d
+FI_RGBA_RGB_MASK	FreeImage/include/FreeImage.h	373;"	d
+FI_ReadProc	FreeImage/include/FreeImage.h	/^typedef unsigned(DLL_CALLCONV *FI_ReadProc)(void *buffer, unsigned size, unsigned count, fi_handle handle);$/;"	t
+FI_RegExprProc	FreeImage/include/FreeImage.h	/^typedef const char *(DLL_CALLCONV *FI_RegExprProc)(void);$/;"	t
+FI_STRUCT	FreeImage/include/FreeImage.h	/^FI_STRUCT(FIBITMAP)$/;"	f
+FI_STRUCT	FreeImage/include/FreeImage.h	/^FI_STRUCT(FIICCPROFILE)$/;"	f
+FI_STRUCT	FreeImage/include/FreeImage.h	/^FI_STRUCT(FIMEMORY)$/;"	f
+FI_STRUCT	FreeImage/include/FreeImage.h	/^FI_STRUCT(FIMETADATA)$/;"	f
+FI_STRUCT	FreeImage/include/FreeImage.h	/^FI_STRUCT(FIMULTIBITMAP)$/;"	f
+FI_STRUCT	FreeImage/include/FreeImage.h	/^FI_STRUCT(FITAG)$/;"	f
+FI_STRUCT	FreeImage/include/FreeImage.h	/^FI_STRUCT(FreeImageIO)$/;"	f
+FI_STRUCT	FreeImage/include/FreeImage.h	/^FI_STRUCT(Plugin)$/;"	f
+FI_STRUCT	FreeImage/include/FreeImage.h	124;"	d
+FI_STRUCT	FreeImage/include/FreeImage.h	128;"	d
+FI_SaveProc	FreeImage/include/FreeImage.h	/^typedef BOOL (DLL_CALLCONV *FI_SaveProc)(FreeImageIO *io, FIBITMAP *dib, fi_handle handle, int page, int flags, void *data);$/;"	t
+FI_SeekProc	FreeImage/include/FreeImage.h	/^typedef int (DLL_CALLCONV *FI_SeekProc)(fi_handle handle, long offset, int origin);$/;"	t
+FI_SupportsExportBPPProc	FreeImage/include/FreeImage.h	/^typedef BOOL (DLL_CALLCONV *FI_SupportsExportBPPProc)(int bpp);$/;"	t
+FI_SupportsExportTypeProc	FreeImage/include/FreeImage.h	/^typedef BOOL (DLL_CALLCONV *FI_SupportsExportTypeProc)(FREE_IMAGE_TYPE type);$/;"	t
+FI_SupportsICCProfilesProc	FreeImage/include/FreeImage.h	/^typedef BOOL (DLL_CALLCONV *FI_SupportsICCProfilesProc)(void);$/;"	t
+FI_TellProc	FreeImage/include/FreeImage.h	/^typedef long(DLL_CALLCONV *FI_TellProc)(fi_handle handle);$/;"	t
+FI_ValidateProc	FreeImage/include/FreeImage.h	/^typedef BOOL (DLL_CALLCONV *FI_ValidateProc)(FreeImageIO *io, fi_handle handle);$/;"	t
+FI_WriteProc	FreeImage/include/FreeImage.h	/^typedef unsigned(DLL_CALLCONV *FI_WriteProc)(void *buffer, unsigned size, unsigned count, fi_handle handle);$/;"	t
+FP16_CUDA	mnistCUDNN.cpp	/^        FP16_CUDA  = 1,$/;"	e	enum:__anon1	file:
+FP16_CUDNN	mnistCUDNN.cpp	/^        FP16_CUDNN = 2$/;"	e	enum:__anon1	file:
+FP16_HOST	mnistCUDNN.cpp	/^        FP16_HOST  = 0, $/;"	e	enum:__anon1	file:
+FREEIMAGE	Makefile	/^FREEIMAGE := $(shell find a.out 2>\/dev\/null)$/;"	m
+FREEIMAGE_BIGENDIAN	FreeImage/include/FreeImage.h	102;"	d
+FREEIMAGE_COLORORDER	FreeImage/include/FreeImage.h	109;"	d
+FREEIMAGE_COLORORDER	FreeImage/include/FreeImage.h	111;"	d
+FREEIMAGE_COLORORDER_BGR	FreeImage/include/FreeImage.h	106;"	d
+FREEIMAGE_COLORORDER_RGB	FreeImage/include/FreeImage.h	107;"	d
+FREEIMAGE_H	FreeImage/include/FreeImage.h	52;"	d
+FREEIMAGE_IO	FreeImage/include/FreeImage.h	620;"	d
+FREEIMAGE_MAJOR_VERSION	FreeImage/include/FreeImage.h	56;"	d
+FREEIMAGE_MINOR_VERSION	FreeImage/include/FreeImage.h	57;"	d
+FREEIMAGE_RELEASE_SERIAL	FreeImage/include/FreeImage.h	58;"	d
+FatalError	error_util.h	55;"	d
+FreeImageErrorHandler	mnistCUDNN.cpp	/^void FreeImageErrorHandler(FREE_IMAGE_FORMAT oFif, const char *zMessage)$/;"	f
+FreeImage_OutputMessageFunction	FreeImage/include/FreeImage.h	/^typedef void (*FreeImage_OutputMessageFunction)(FREE_IMAGE_FORMAT fif, const char *msg);$/;"	t
+FreeImage_OutputMessageFunctionStdCall	FreeImage/include/FreeImage.h	/^typedef void (DLL_CALLCONV *FreeImage_OutputMessageFunctionStdCall)(FREE_IMAGE_FORMAT fif, const char *msg);$/;"	t
+GCCVERSIONLTEQ46	Makefile	/^            GCCVERSIONLTEQ46 := $(shell expr `$(HOST_COMPILER) -dumpversion` \\<= 4.6)$/;"	m
+GCC_HASCLASSVISIBILITY	FreeImage/include/FreeImage.h	85;"	d
+GIF_DEFAULT	FreeImage/include/FreeImage.h	718;"	d
+GIF_LOAD256	FreeImage/include/FreeImage.h	719;"	d
+GIF_PLAYBACK	FreeImage/include/FreeImage.h	720;"	d
+HDR_DEFAULT	FreeImage/include/FreeImage.h	721;"	d
+HIGHEST_SM	Makefile	/^HIGHEST_SM := $(lastword $(sort $(SMS)))$/;"	m
+HLF_EPSILON	fp16_emu.h	57;"	d
+HOST_ARCH	Makefile	/^HOST_ARCH   := $(shell uname -m)$/;"	m
+HOST_COMPILER	Makefile	/^            HOST_COMPILER ?= $(QNX_HOST)\/usr\/bin\/arm-unknown-nto-qnx6.6.0eabi-g++$/;"	m
+HOST_COMPILER	Makefile	/^            HOST_COMPILER ?= aarch64-linux-android-g++$/;"	m
+HOST_COMPILER	Makefile	/^            HOST_COMPILER ?= aarch64-linux-gnu-g++$/;"	m
+HOST_COMPILER	Makefile	/^            HOST_COMPILER ?= arm-linux-androideabi-g++$/;"	m
+HOST_COMPILER	Makefile	/^            HOST_COMPILER ?= arm-linux-gnueabihf-g++$/;"	m
+HOST_COMPILER	Makefile	/^        HOST_COMPILER ?= clang++$/;"	m
+HOST_COMPILER	Makefile	/^        HOST_COMPILER ?= powerpc64le-linux-gnu-g++$/;"	m
+HOST_COMPILER	Makefile	/^HOST_COMPILER ?= g++$/;"	m
+HOST_OS	Makefile	/^HOST_OS   := $(shell uname -s 2>\/dev\/null | tr "[:upper:]" "[:lower:]")$/;"	m
+ICO_DEFAULT	FreeImage/include/FreeImage.h	722;"	d
+ICO_MAKEALPHA	FreeImage/include/FreeImage.h	723;"	d
+IFF_DEFAULT	FreeImage/include/FreeImage.h	724;"	d
+IMAGE_H	mnistCUDNN.cpp	38;"	d	file:
+IMAGE_W	mnistCUDNN.cpp	39;"	d	file:
+INCLUDES	Makefile	/^INCLUDES := -I$(CUDA_PATH)\/include$/;"	m
+INCLUDES	Makefile	/^INCLUDES := -I$(CUDA_PATH)\/targets\/ppc64le-linux\/include$/;"	m
+J2K_DEFAULT	FreeImage/include/FreeImage.h	725;"	d
+JP2_DEFAULT	FreeImage/include/FreeImage.h	726;"	d
+JPEG_ACCURATE	FreeImage/include/FreeImage.h	729;"	d
+JPEG_CMYK	FreeImage/include/FreeImage.h	730;"	d
+JPEG_DEFAULT	FreeImage/include/FreeImage.h	727;"	d
+JPEG_EXIFROTATE	FreeImage/include/FreeImage.h	731;"	d
+JPEG_FAST	FreeImage/include/FreeImage.h	728;"	d
+JPEG_PROGRESSIVE	FreeImage/include/FreeImage.h	737;"	d
+JPEG_QUALITYAVERAGE	FreeImage/include/FreeImage.h	735;"	d
+JPEG_QUALITYBAD	FreeImage/include/FreeImage.h	736;"	d
+JPEG_QUALITYGOOD	FreeImage/include/FreeImage.h	733;"	d
+JPEG_QUALITYNORMAL	FreeImage/include/FreeImage.h	734;"	d
+JPEG_QUALITYSUPERB	FreeImage/include/FreeImage.h	732;"	d
+JPEG_SUBSAMPLING_411	FreeImage/include/FreeImage.h	738;"	d
+JPEG_SUBSAMPLING_420	FreeImage/include/FreeImage.h	739;"	d
+JPEG_SUBSAMPLING_422	FreeImage/include/FreeImage.h	740;"	d
+JPEG_SUBSAMPLING_444	FreeImage/include/FreeImage.h	741;"	d
+KOALA_DEFAULT	FreeImage/include/FreeImage.h	742;"	d
+LBM_DEFAULT	FreeImage/include/FreeImage.h	743;"	d
+LDFLAGS	Makefile	/^LDFLAGS     :=$/;"	m
+LIBRARIES	Makefile	/^LIBRARIES :=$/;"	m
+LONG	FreeImage/include/FreeImage.h	/^typedef int32_t LONG;$/;"	t
+LONG	FreeImage/include/FreeImage.h	/^typedef long LONG;$/;"	t
+Layer_t	mnistCUDNN.cpp	/^    Layer_t() : data_h(NULL), data_d(NULL), bias_h(NULL), bias_d(NULL), $/;"	f	struct:Layer_t
+Layer_t	mnistCUDNN.cpp	/^    Layer_t(int _inputs, int _outputs, int _kernel_dim, const char* fname_weights,$/;"	f	struct:Layer_t
+Layer_t	mnistCUDNN.cpp	/^struct Layer_t$/;"	s	file:
+MNG_DEFAULT	FreeImage/include/FreeImage.h	744;"	d
+ND_TENSOR_DESCRIPTOR	mnistCUDNN.cpp	343;"	d	file:
+NULL	FreeImage/include/FreeImage.h	158;"	d
+NVCC	Makefile	/^NVCC          := $(CUDA_PATH)\/bin\/nvcc -ccbin $(HOST_COMPILER)$/;"	m
+NVCCFLAGS	Makefile	/^NVCCFLAGS   := -m${TARGET_SIZE}$/;"	m
+OBJ	Makefile	/^OBJ = fp16_dev.o fp16_emu.o mnistCUDNN.o$/;"	m
+PBITMAPINFO	FreeImage/include/FreeImage.h	/^} BITMAPINFO, *PBITMAPINFO;$/;"	t	typeref:struct:tagBITMAPINFO
+PBITMAPINFOHEADER	FreeImage/include/FreeImage.h	/^} BITMAPINFOHEADER, *PBITMAPINFOHEADER;$/;"	t	typeref:struct:tagBITMAPINFOHEADER
+PCD_BASE	FreeImage/include/FreeImage.h	746;"	d
+PCD_BASEDIV16	FreeImage/include/FreeImage.h	748;"	d
+PCD_BASEDIV4	FreeImage/include/FreeImage.h	747;"	d
+PCD_DEFAULT	FreeImage/include/FreeImage.h	745;"	d
+PCX_DEFAULT	FreeImage/include/FreeImage.h	749;"	d
+PFM_DEFAULT	FreeImage/include/FreeImage.h	750;"	d
+PICT_DEFAULT	FreeImage/include/FreeImage.h	751;"	d
+PLUGINS	FreeImage/include/FreeImage.h	661;"	d
+PNG_DEFAULT	FreeImage/include/FreeImage.h	752;"	d
+PNG_IGNOREGAMMA	FreeImage/include/FreeImage.h	753;"	d
+PNG_INTERLACED	FreeImage/include/FreeImage.h	758;"	d
+PNG_Z_BEST_COMPRESSION	FreeImage/include/FreeImage.h	756;"	d
+PNG_Z_BEST_SPEED	FreeImage/include/FreeImage.h	754;"	d
+PNG_Z_DEFAULT_COMPRESSION	FreeImage/include/FreeImage.h	755;"	d
+PNG_Z_NO_COMPRESSION	FreeImage/include/FreeImage.h	757;"	d
+PNM_DEFAULT	FreeImage/include/FreeImage.h	759;"	d
+PNM_SAVE_ASCII	FreeImage/include/FreeImage.h	761;"	d
+PNM_SAVE_RAW	FreeImage/include/FreeImage.h	760;"	d
+PSD_DEFAULT	FreeImage/include/FreeImage.h	762;"	d
+RAS_DEFAULT	FreeImage/include/FreeImage.h	763;"	d
+RAW_DEFAULT	FreeImage/include/FreeImage.h	764;"	d
+RAW_DISPLAY	FreeImage/include/FreeImage.h	766;"	d
+RAW_PREVIEW	FreeImage/include/FreeImage.h	765;"	d
+RGBQUAD	FreeImage/include/FreeImage.h	/^} RGBQUAD;$/;"	t	typeref:struct:tagRGBQUAD
+RGBTRIPLE	FreeImage/include/FreeImage.h	/^} RGBTRIPLE;$/;"	t	typeref:struct:tagRGBTRIPLE
+SAMPLE_ENABLED	Makefile	/^SAMPLE_ENABLED := 0$/;"	m
+SAMPLE_ENABLED	Makefile	/^SAMPLE_ENABLED := 1$/;"	m
+SEEK_CUR	FreeImage/include/FreeImage.h	163;"	d
+SEEK_END	FreeImage/include/FreeImage.h	164;"	d
+SEEK_SET	FreeImage/include/FreeImage.h	162;"	d
+SGI_DEFAULT	FreeImage/include/FreeImage.h	767;"	d
+SMS	Makefile	/^SMS ?= 30 35 50 53$/;"	m
+STRNCASECMP	error_util.h	113;"	d
+STRNCASECMP	error_util.h	119;"	d
+ScaleFactorTypeMap	mnistCUDNN.cpp	/^struct ScaleFactorTypeMap { typedef T Type;};$/;"	s	file:
+ScaleFactorTypeMap	mnistCUDNN.cpp	/^template <> struct ScaleFactorTypeMap<half1>  { typedef float Type;};$/;"	s	file:
+TARGA_DEFAULT	FreeImage/include/FreeImage.h	768;"	d
+TARGA_LOAD_RGB888	FreeImage/include/FreeImage.h	769;"	d
+TARGET_ARCH	Makefile	/^        TARGET_ARCH=armv7l$/;"	m
+TARGET_ARCH	Makefile	/^TARGET_ARCH ?= $(HOST_ARCH)$/;"	m
+TARGET_OS	Makefile	/^TARGET_OS ?= $(HOST_OS)$/;"	m
+TARGET_SIZE	Makefile	/^            TARGET_SIZE := 32$/;"	m
+TARGET_SIZE	Makefile	/^            TARGET_SIZE := 64$/;"	m
+TARGET_SIZE	Makefile	/^        TARGET_SIZE := $(shell getconf LONG_BIT)$/;"	m
+TIFF_ADOBE_DEFLATE	FreeImage/include/FreeImage.h	774;"	d
+TIFF_CCITTFAX3	FreeImage/include/FreeImage.h	776;"	d
+TIFF_CCITTFAX4	FreeImage/include/FreeImage.h	777;"	d
+TIFF_CMYK	FreeImage/include/FreeImage.h	771;"	d
+TIFF_DEFAULT	FreeImage/include/FreeImage.h	770;"	d
+TIFF_DEFLATE	FreeImage/include/FreeImage.h	773;"	d
+TIFF_JPEG	FreeImage/include/FreeImage.h	779;"	d
+TIFF_LZW	FreeImage/include/FreeImage.h	778;"	d
+TIFF_NONE	FreeImage/include/FreeImage.h	775;"	d
+TIFF_PACKBITS	FreeImage/include/FreeImage.h	772;"	d
+TOSTR	error_util.h	21;"	d
+TOSTR_	error_util.h	20;"	d
+TRUE	FreeImage/include/FreeImage.h	155;"	d
+Type	mnistCUDNN.cpp	/^struct ScaleFactorTypeMap { typedef T Type;};$/;"	t	struct:ScaleFactorTypeMap	file:
+Type	mnistCUDNN.cpp	/^template <> struct ScaleFactorTypeMap<half1>  { typedef float Type;};$/;"	t	struct:ScaleFactorTypeMap	file:
+WBMP_DEFAULT	FreeImage/include/FreeImage.h	780;"	d
+WORD	FreeImage/include/FreeImage.h	/^typedef uint16_t WORD;$/;"	t
+WORD	FreeImage/include/FreeImage.h	/^typedef unsigned short WORD;$/;"	t
+XBM_DEFAULT	FreeImage/include/FreeImage.h	781;"	d
+XPM_DEFAULT	FreeImage/include/FreeImage.h	782;"	d
+_CRT_SECURE_NO_DEPRECATE	error_util.h	110;"	d
+_ERROR_UTIL_H_	error_util.h	13;"	d
+_FP16_DEV_H_	fp16_dev.h	12;"	d
+_FP16_EMU_H_	fp16_emu.h	53;"	d
+_GEMV_H_	gemv.h	13;"	d
+_WINDOWS_	FreeImage/include/FreeImage.h	145;"	d
+_WINDOWS_	FreeImage/include/FreeImage.h	149;"	d
+activDesc	mnistCUDNN.cpp	/^    cudnnActivationDescriptor_t  activDesc;$/;"	m	class:network_t	file:
+activationForward	mnistCUDNN.cpp	/^    void activationForward(int n, int c, int h, int w, value_type* srcData, value_type** dstData)$/;"	f	class:network_t
+addBias	mnistCUDNN.cpp	/^    void addBias(const cudnnTensorDescriptor_t& dstTensorDesc, const Layer_t<value_type>& layer, int c, value_type *data)$/;"	f	class:network_t
+alpha	FreeImage/include/FreeImage.h	/^    WORD alpha;$/;"	m	struct:tagFIRGBA16
+alpha	FreeImage/include/FreeImage.h	/^    float alpha;$/;"	m	struct:tagFIRGBAF
+biBitCount	FreeImage/include/FreeImage.h	/^    WORD  biBitCount;$/;"	m	struct:tagBITMAPINFOHEADER
+biClrImportant	FreeImage/include/FreeImage.h	/^    DWORD biClrImportant;$/;"	m	struct:tagBITMAPINFOHEADER
+biClrUsed	FreeImage/include/FreeImage.h	/^    DWORD biClrUsed;$/;"	m	struct:tagBITMAPINFOHEADER
+biCompression	FreeImage/include/FreeImage.h	/^    DWORD biCompression;$/;"	m	struct:tagBITMAPINFOHEADER
+biHeight	FreeImage/include/FreeImage.h	/^    LONG  biHeight;$/;"	m	struct:tagBITMAPINFOHEADER
+biPlanes	FreeImage/include/FreeImage.h	/^    WORD  biPlanes;$/;"	m	struct:tagBITMAPINFOHEADER
+biSize	FreeImage/include/FreeImage.h	/^    DWORD biSize;$/;"	m	struct:tagBITMAPINFOHEADER
+biSizeImage	FreeImage/include/FreeImage.h	/^    DWORD biSizeImage;$/;"	m	struct:tagBITMAPINFOHEADER
+biWidth	FreeImage/include/FreeImage.h	/^    LONG  biWidth;$/;"	m	struct:tagBITMAPINFOHEADER
+biXPelsPerMeter	FreeImage/include/FreeImage.h	/^    LONG  biXPelsPerMeter;$/;"	m	struct:tagBITMAPINFOHEADER
+biYPelsPerMeter	FreeImage/include/FreeImage.h	/^    LONG  biYPelsPerMeter;$/;"	m	struct:tagBITMAPINFOHEADER
+biasTensorDesc	mnistCUDNN.cpp	/^    cudnnTensorDescriptor_t srcTensorDesc, dstTensorDesc, biasTensorDesc;$/;"	m	class:network_t	file:
+bias_d	mnistCUDNN.cpp	/^    value_type *bias_h, *bias_d;$/;"	m	struct:Layer_t	file:
+bias_h	mnistCUDNN.cpp	/^    value_type *bias_h, *bias_d;$/;"	m	struct:Layer_t	file:
+blue	FreeImage/include/FreeImage.h	/^    WORD blue;$/;"	m	struct:tagFIRGB16
+blue	FreeImage/include/FreeImage.h	/^    WORD blue;$/;"	m	struct:tagFIRGBA16
+blue	FreeImage/include/FreeImage.h	/^    float blue;$/;"	m	struct:tagFIRGBAF
+blue	FreeImage/include/FreeImage.h	/^    float blue;$/;"	m	struct:tagFIRGBF
+bmiColors	FreeImage/include/FreeImage.h	/^    RGBQUAD          bmiColors[1];$/;"	m	struct:tagBITMAPINFO
+bmiHeader	FreeImage/include/FreeImage.h	/^    BITMAPINFOHEADER bmiHeader;$/;"	m	struct:tagBITMAPINFO
+checkCUDNN	error_util.h	64;"	d
+checkCmdLineFlag	error_util.h	/^inline bool checkCmdLineFlag(const int argc, const char **argv, const char *string_ref)$/;"	f
+checkCublasErrors	error_util.h	80;"	d
+checkCudaErrors	error_util.h	72;"	d
+classify_example	mnistCUDNN.cpp	/^    int classify_example(const char* fname, const Layer_t<value_type>& conv1,$/;"	f	class:network_t
+conv1_bias_bin	mnistCUDNN.cpp	/^const char *conv1_bias_bin = "conv1.bias.bin";$/;"	v
+conv1_bin	mnistCUDNN.cpp	/^const char *conv1_bin = "conv1.bin";$/;"	v
+conv2_bias_bin	mnistCUDNN.cpp	/^const char *conv2_bias_bin = "conv2.bias.bin";$/;"	v
+conv2_bin	mnistCUDNN.cpp	/^const char *conv2_bin = "conv2.bin";$/;"	v
+convAlgorithm	mnistCUDNN.cpp	/^    int convAlgorithm;$/;"	m	class:network_t	file:
+convDesc	mnistCUDNN.cpp	/^    cudnnConvolutionDescriptor_t convDesc;$/;"	m	class:network_t	file:
+convoluteForward	mnistCUDNN.cpp	/^    void convoluteForward(const Layer_t<value_type>& conv,$/;"	f	class:network_t
+cpu_float2half_rn	fp16_emu.cpp	/^half1 cpu_float2half_rn(float f)$/;"	f
+cpu_half2float	fp16_emu.cpp	/^float cpu_half2float(half1 h)$/;"	f
+createHandles	mnistCUDNN.cpp	/^    void createHandles()$/;"	f	class:network_t	file:
+cublasHandle	mnistCUDNN.cpp	/^    cublasHandle_t cublasHandle;$/;"	m	class:network_t	file:
+cudnnHandle	mnistCUDNN.cpp	/^    cudnnHandle_t cudnnHandle;$/;"	m	class:network_t	file:
+dataType	mnistCUDNN.cpp	/^    cudnnDataType_t dataType;$/;"	m	class:network_t	file:
+data_d	mnistCUDNN.cpp	/^    value_type *data_h, *data_d;$/;"	m	struct:Layer_t	file:
+data_h	mnistCUDNN.cpp	/^    value_type *data_h, *data_d;$/;"	m	struct:Layer_t	file:
+destroyHandles	mnistCUDNN.cpp	/^    void destroyHandles()$/;"	f	class:network_t	file:
+displayUsage	mnistCUDNN.cpp	/^void displayUsage()$/;"	f
+dstTensorDesc	mnistCUDNN.cpp	/^    cudnnTensorDescriptor_t srcTensorDesc, dstTensorDesc, biasTensorDesc;$/;"	m	class:network_t	file:
+fi_handle	FreeImage/include/FreeImage.h	/^typedef void *fi_handle;$/;"	t
+filterDesc	mnistCUDNN.cpp	/^    cudnnFilterDescriptor_t filterDesc;$/;"	m	class:network_t	file:
+first_image	mnistCUDNN.cpp	/^const char *first_image = "one_28x28.pgm";$/;"	v
+fp16Import	mnistCUDNN.cpp	/^    fp16Import_t fp16Import;$/;"	m	struct:Layer_t	file:
+fp16Import_t	mnistCUDNN.cpp	/^ } fp16Import_t;$/;"	t	typeref:enum:__anon1	file:
+fullyConnectedForward	mnistCUDNN.cpp	/^    void fullyConnectedForward(const Layer_t<value_type>& ip,$/;"	f	class:network_t
+fullyConnectedForward	mnistCUDNN.cpp	/^void network_t<half1>::fullyConnectedForward(const Layer_t<half1>& ip,$/;"	f	class:network_t
+gemv	gemv.h	/^void gemv(cublasHandle_t cublasHandle, int m, int n, double alpha, $/;"	f
+gemv	gemv.h	/^void gemv(cublasHandle_t cublasHandle, int m, int n, float alpha, $/;"	f
+getCmdLineArgumentInt	error_util.h	/^inline int getCmdLineArgumentInt(const int argc, const char **argv, const char *string_ref)$/;"	f
+getCmdLineArgumentString	error_util.h	/^inline bool getCmdLineArgumentString(const int argc, const char **argv,$/;"	f
+get_path	mnistCUDNN.cpp	/^void get_path(std::string& sFilename, const char *fname, const char *pname)$/;"	f
+green	FreeImage/include/FreeImage.h	/^    WORD green;$/;"	m	struct:tagFIRGB16
+green	FreeImage/include/FreeImage.h	/^    WORD green;$/;"	m	struct:tagFIRGBA16
+green	FreeImage/include/FreeImage.h	/^    float green;$/;"	m	struct:tagFIRGBAF
+green	FreeImage/include/FreeImage.h	/^    float green;$/;"	m	struct:tagFIRGBF
+habs	fp16_emu.h	/^static __inline__ __device__ __host__ half1 habs(half1 h)$/;"	f
+hneg	fp16_emu.h	/^static __inline__ __device__ __host__ half1 hneg(half1 h)$/;"	f
+hone	fp16_emu.h	/^static __inline__ __device__ __host__ half1 hone()$/;"	f
+hzero	fp16_emu.h	/^static __inline__ __device__ __host__ half1 hzero()$/;"	f
+i	FreeImage/include/FreeImage.h	/^    double i;$/;"	m	struct:tagFICOMPLEX
+inputs	mnistCUDNN.cpp	/^    int inputs;$/;"	m	struct:Layer_t	file:
+ip1_bias_bin	mnistCUDNN.cpp	/^const char *ip1_bias_bin = "ip1.bias.bin";$/;"	v
+ip1_bin	mnistCUDNN.cpp	/^const char *ip1_bin = "ip1.bin";$/;"	v
+ip2_bias_bin	mnistCUDNN.cpp	/^const char *ip2_bias_bin = "ip2.bias.bin";$/;"	v
+ip2_bin	mnistCUDNN.cpp	/^const char *ip2_bin = "ip2.bin";$/;"	v
+ishequ	fp16_emu.h	/^static __inline__ __device__ __host__ int ishequ(half1 x, half1 y)$/;"	f
+ishinf	fp16_emu.h	/^static __inline__ __device__ __host__ int ishinf(half1 h)$/;"	f
+ishnan	fp16_emu.h	/^static __inline__ __device__ __host__ int ishnan(half1 h)$/;"	f
+kernel_dim	mnistCUDNN.cpp	/^    int kernel_dim;$/;"	m	struct:Layer_t	file:
+lrnForward	mnistCUDNN.cpp	/^    void lrnForward(int n, int c, int h, int w, value_type* srcData, value_type** dstData)$/;"	f	class:network_t
+main	mnistCUDNN.cpp	/^int main(int argc, char *argv[])$/;"	f
+network_t	mnistCUDNN.cpp	/^    network_t()$/;"	f	class:network_t
+network_t	mnistCUDNN.cpp	/^class network_t$/;"	c	file:
+normDesc	mnistCUDNN.cpp	/^    cudnnLRNDescriptor_t   normDesc;$/;"	m	class:network_t	file:
+operator ()	mnistCUDNN.cpp	/^    half1 operator()(T x) {return cpu_float2half_rn (T(x));} $/;"	f	class:Convert
+operator ()	mnistCUDNN.cpp	/^    half1 operator()(half1 x) {return x;}$/;"	f	class:Convert
+operator ()	mnistCUDNN.cpp	/^    value_type operator()(T x) {return value_type(x);}$/;"	f	class:Convert
+operator ()	mnistCUDNN.cpp	/^    value_type operator()(half1 x) {return value_type(cpu_half2float(x));}$/;"	f	class:Convert
+outputs	mnistCUDNN.cpp	/^    int outputs;$/;"	m	struct:Layer_t	file:
+poolForward	mnistCUDNN.cpp	/^    void poolForward( int& n, int& c, int& h, int& w,$/;"	f	class:network_t
+poolingDesc	mnistCUDNN.cpp	/^    cudnnPoolingDescriptor_t     poolingDesc;$/;"	m	class:network_t	file:
+printDeviceVector	mnistCUDNN.cpp	/^void printDeviceVector(int size, value_type* vec_d)$/;"	f
+r	FreeImage/include/FreeImage.h	/^    double r;$/;"	m	struct:tagFICOMPLEX
+readAllocInit	mnistCUDNN.cpp	/^    void readAllocInit(const char* fname, int size, value_type** data_h, value_type** data_d)$/;"	f	struct:Layer_t	file:
+readAllocInit	mnistCUDNN.cpp	/^void Layer_t<half1>::readAllocInit(const char* fname, int size, half1** data_h, half1** data_d)$/;"	f	class:Layer_t
+readAllocMemcpy	mnistCUDNN.cpp	/^void readAllocMemcpy(const char* fname, int size, value_type** data_h, value_type** data_d)$/;"	f
+readBinaryFile	mnistCUDNN.cpp	/^void readBinaryFile(const char* fname, int size, value_type* data_h)$/;"	f
+readImage	mnistCUDNN.cpp	/^void readImage(const char* fname, value_type* imgData_h)$/;"	f
+red	FreeImage/include/FreeImage.h	/^    WORD red;$/;"	m	struct:tagFIRGB16
+red	FreeImage/include/FreeImage.h	/^    WORD red;$/;"	m	struct:tagFIRGBA16
+red	FreeImage/include/FreeImage.h	/^    float red;$/;"	m	struct:tagFIRGBAF
+red	FreeImage/include/FreeImage.h	/^    float red;$/;"	m	struct:tagFIRGBF
+resize	mnistCUDNN.cpp	/^    void resize(int size, value_type **data)$/;"	f	class:network_t
+rgbBlue	FreeImage/include/FreeImage.h	/^    BYTE rgbBlue;$/;"	m	struct:tagRGBQUAD
+rgbGreen	FreeImage/include/FreeImage.h	/^    BYTE rgbGreen;$/;"	m	struct:tagRGBQUAD
+rgbRed	FreeImage/include/FreeImage.h	/^    BYTE rgbRed;$/;"	m	struct:tagRGBQUAD
+rgbReserved	FreeImage/include/FreeImage.h	/^    BYTE rgbReserved;$/;"	m	struct:tagRGBQUAD
+rgbtBlue	FreeImage/include/FreeImage.h	/^    BYTE rgbtBlue;$/;"	m	struct:tagRGBTRIPLE
+rgbtGreen	FreeImage/include/FreeImage.h	/^    BYTE rgbtGreen;$/;"	m	struct:tagRGBTRIPLE
+rgbtRed	FreeImage/include/FreeImage.h	/^    BYTE rgbtRed;$/;"	m	struct:tagRGBTRIPLE
+scaling_type	mnistCUDNN.cpp	/^    typedef typename ScaleFactorTypeMap<value_type>::Type scaling_type;$/;"	t	class:network_t	file:
+second_image	mnistCUDNN.cpp	/^const char *second_image = "three_28x28.pgm";$/;"	v
+setConvolutionAlgorithm	mnistCUDNN.cpp	/^    void setConvolutionAlgorithm(const cudnnConvolutionFwdAlgo_t& algo)$/;"	f	class:network_t
+setTensorDesc	mnistCUDNN.cpp	/^void setTensorDesc(cudnnTensorDescriptor_t& tensorDesc, $/;"	f
+showDevices	error_util.h	/^static void  showDevices( void )$/;"	f
+softmaxForward	mnistCUDNN.cpp	/^    void softmaxForward(int n, int c, int h, int w, value_type* srcData, value_type** dstData)$/;"	f	class:network_t
+srcTensorDesc	mnistCUDNN.cpp	/^    cudnnTensorDescriptor_t srcTensorDesc, dstTensorDesc, biasTensorDesc;$/;"	m	class:network_t	file:
+stringRemoveDelimiter	error_util.h	/^inline int stringRemoveDelimiter(char delimiter, const char *string)$/;"	f
+tagBITMAPINFO	FreeImage/include/FreeImage.h	/^typedef struct tagBITMAPINFO$/;"	s
+tagBITMAPINFOHEADER	FreeImage/include/FreeImage.h	/^typedef struct tagBITMAPINFOHEADER$/;"	s
+tagFICOMPLEX	FreeImage/include/FreeImage.h	/^typedef struct tagFICOMPLEX$/;"	s
+tagFIRGB16	FreeImage/include/FreeImage.h	/^typedef struct tagFIRGB16$/;"	s
+tagFIRGBA16	FreeImage/include/FreeImage.h	/^typedef struct tagFIRGBA16$/;"	s
+tagFIRGBAF	FreeImage/include/FreeImage.h	/^typedef struct tagFIRGBAF$/;"	s
+tagFIRGBF	FreeImage/include/FreeImage.h	/^typedef struct tagFIRGBF$/;"	s
+tagRGBQUAD	FreeImage/include/FreeImage.h	/^typedef struct tagRGBQUAD$/;"	s
+tagRGBTRIPLE	FreeImage/include/FreeImage.h	/^typedef struct tagRGBTRIPLE$/;"	s
+tensorFormat	mnistCUDNN.cpp	/^    cudnnTensorFormat_t tensorFormat;$/;"	m	class:network_t	file:
+third_image	mnistCUDNN.cpp	/^const char *third_image = "five_28x28.pgm";$/;"	v
+~Layer_t	mnistCUDNN.cpp	/^    ~Layer_t()$/;"	f	struct:Layer_t
+~network_t	mnistCUDNN.cpp	/^    ~network_t()$/;"	f	class:network_t
