@@ -1,0 +1,14 @@
+*.mk
+makefile
+*.d
+*.o
+Debug/*
+PracticeCUDNN/Debug/*
+PracticeCUDNN/Debug
+*bin
+Example-YDNN/tensor_weight_binary/*
+Example-YDNN/tensor_weight_binary
+**/x64/*
+**/x64
+Auxiliaries/*
+Data

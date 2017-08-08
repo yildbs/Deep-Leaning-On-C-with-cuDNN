@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ydnn">
+      <UniqueIdentifier>{3c8a8177-c85e-4a7a-933d-37171707968c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ydnn\error_util.h">
+      <Filter>ydnn</Filter>
+    </ClInclude>
+    <ClInclude Include="ydnn\YNetwork.h">
+      <Filter>ydnn</Filter>
+    </ClInclude>
+    <ClInclude Include="ydnn\YTypes.h">
+      <Filter>ydnn</Filter>
+    </ClInclude>
+    <ClInclude Include="ydnn\YUtils.h">
+      <Filter>ydnn</Filter>
+    </ClInclude>
+    <ClInclude Include="ydnn\YLayer.h">
+      <Filter>ydnn</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ydnn\YNetwork.cpp">
+      <Filter>ydnn</Filter>
+    </ClCompile>
+    <ClCompile Include="ydnn\YTypes.cpp">
+      <Filter>ydnn</Filter>
+    </ClCompile>
+    <ClCompile Include="ydnn\YLayer.cpp">
+      <Filter>ydnn</Filter>
+    </ClCompile>
+    <ClCompile Include="ydnn\YUtils.cpp">
+      <Filter>ydnn</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

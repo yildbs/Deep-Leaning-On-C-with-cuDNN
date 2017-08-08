@@ -1,0 +1,241 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASM_SRCS	Debug/sources.mk	/^ASM_SRCS := $/;"	m
+C	ydnn/YTypes.h	/^	inline int C(){return this->c;}$/;"	f	class:YFilter
+C	ydnn/YTypes.h	/^	inline int C(){return this->c;}$/;"	f	class:YMatrix
+CC_DEPS	Debug/sources.mk	/^CC_DEPS := $/;"	m
+CC_SRCS	Debug/sources.mk	/^CC_SRCS := $/;"	m
+CPP_DEPS	Debug/sources.mk	/^CPP_DEPS := $/;"	m
+CPP_SRCS	Debug/sources.mk	/^CPP_SRCS := $/;"	m
+CU_DEPS	Debug/sources.mk	/^CU_DEPS := $/;"	m
+CU_SRCS	Debug/sources.mk	/^CU_SRCS := $/;"	m
+CXX_DEPS	Debug/sources.mk	/^CXX_DEPS := $/;"	m
+CXX_SRCS	Debug/sources.mk	/^CXX_SRCS := $/;"	m
+C_DEPS	Debug/sources.mk	/^C_DEPS := $/;"	m
+C_SRCS	Debug/sources.mk	/^C_SRCS := $/;"	m
+C_UPPER_DEPS	Debug/sources.mk	/^C_UPPER_DEPS := $/;"	m
+C_UPPER_SRCS	Debug/sources.mk	/^C_UPPER_SRCS := $/;"	m
+Clear	ydnn/GpuMem.h	/^	void Clear()$/;"	f	class:GpuMem
+Clear	ydnn/YTypes.h	/^	void Clear(){$/;"	f	class:YData
+Clear	ydnn/YTypes.h	/^	void Clear(){$/;"	f	class:YFilter
+DescriptorClear	ydnn/YTypes.h	/^	void DescriptorClear(){$/;"	f	class:YTensor
+EXECUTABLES	Debug/sources.mk	/^EXECUTABLES := $/;"	m
+FatalError	ydnn/error_util.h	18;"	d
+Format	ydnn/YTypes.h	/^	}Format;$/;"	t	class:YMatrix	typeref:struct:YMatrix::__anon1
+GLUT_LIBS	Debug/makefile	/^GLUT_LIBS := -Xlinker -framework -Xlinker GLUT -Xlinker -framework -Xlinker OpenGL$/;"	m
+GLUT_LIBS	Debug/makefile	/^GLUT_LIBS := -lGL -lGLU -lglut $/;"	m
+GPUMEM_H_	ydnn/GpuMem.h	9;"	d
+GetCapacity	ydnn/GpuMem.h	/^	inline int GetCapacity(){$/;"	f	class:GpuMem
+GetData	ydnn/YTypes.h	/^	YData& GetData(){$/;"	f	class:YFilter
+GetData	ydnn/YTypes.h	/^	YData& GetData(){$/;"	f	class:YMatrix
+GetDataLength	ydnn/YTypes.h	/^	virtual size_t GetDataLength(){$/;"	f	class:YMatrix
+GetDescriptor	ydnn/YTypes.h	/^	cudnnFilterDescriptor_t& GetDescriptor(){$/;"	f	class:YFilter
+GetDescriptor	ydnn/YTypes.h	/^	cudnnTensorDescriptor_t& GetDescriptor(){$/;"	f	class:YTensor
+GetDeviceData	ydnn/YTypes.h	/^	float* GetDeviceData(){$/;"	f	class:YData
+GetFormat	ydnn/YTypes.h	/^	Format GetFormat(){$/;"	f	class:YMatrix
+GetHostData	ydnn/YTypes.h	/^	std::vector<float>& GetHostData(){$/;"	f	class:YData
+GetLength	ydnn/GpuMem.h	/^	inline int GetLength(){$/;"	f	class:GpuMem
+GetLength	ydnn/YTypes.h	/^	inline size_t GetLength(){$/;"	f	class:YData
+GetPtr	ydnn/GpuMem.h	/^	inline T* GetPtr(){$/;"	f	class:GpuMem
+GpuMem	ydnn/GpuMem.h	/^	GpuMem()$/;"	f	class:GpuMem
+GpuMem	ydnn/GpuMem.h	/^class GpuMem{$/;"	c
+H	ydnn/YTypes.h	/^	inline int H(){return this->h;}$/;"	f	class:YMatrix
+H	ydnn/YTypes.h	/^	inline int H(){return this->r;}$/;"	f	class:YFilter
+Initialize	ydnn/YFlow.h	/^	void Initialize(){$/;"	f	class:YCNN
+K	ydnn/YTypes.h	/^	inline int K(){return this->k;}$/;"	f	class:YFilter
+LIBS	Debug/objects.mk	/^LIBS := -lcudnn -lcublas -lstdc++ -lm -lcudart -lopencv_cudabgsegm -lopencv_cudaobjdetect -lopencv_cudastereo -lopencv_stitching -lopencv_cudafeatures2d -lopencv_superres -lopencv_cudacodec -lopencv_videostab -lopencv_cudaoptflow -lopencv_cudalegacy -lopencv_cudawarping -lopencv_aruco -lopencv_bgsegm -lopencv_bioinspired -lopencv_ccalib -lopencv_dpm -lopencv_freetype -lopencv_fuzzy -lopencv_line_descriptor -lopencv_optflow -lopencv_reg -lopencv_saliency -lopencv_stereo -lopencv_structured_light -lopencv_phase_unwrapping -lopencv_rgbd -lopencv_surface_matching -lopencv_tracking -lopencv_datasets -lopencv_text -lopencv_face -lopencv_plot -lopencv_dnn -lopencv_xfeatures2d -lopencv_shape -lopencv_video -lopencv_ximgproc -lopencv_calib3d -lopencv_features2d -lopencv_flann -lopencv_xobjdetect -lopencv_objdetect -lopencv_ml -lopencv_xphoto -lopencv_highgui -lopencv_videoio -lopencv_photo -lopencv_imgcodecs -lopencv_cudaimgproc -lopencv_cudafilters -lopencv_imgproc -lopencv_cudaarithm -lopencv_core -lopencv_cudev$/;"	m
+MemoryAllocate	ydnn/YTypes.h	/^	void MemoryAllocate(){$/;"	f	class:YFilter
+MemoryAllocate	ydnn/YTypes.h	/^	void MemoryAllocate(){$/;"	f	class:YMatrix
+N	ydnn/YTypes.h	/^	inline int N(){return this->n;}$/;"	f	class:YMatrix
+OBJS	Debug/sources.mk	/^OBJS := $/;"	m
+OBJ_SRCS	Debug/sources.mk	/^OBJ_SRCS := $/;"	m
+OS_SUFFIX	Debug/makefile	/^OS_SUFFIX := $(subst Linux,linux,$(subst Darwin\/x86_64,darwin,$(shell uname -s)\/$(shell uname -m)))$/;"	m
+O_SRCS	Debug/sources.mk	/^O_SRCS := $/;"	m
+Process	ydnn/YFlow.h	/^	void Process(YTensor& input){$/;"	f	class:YCNN
+RM	Debug/makefile	/^RM := rm -rf$/;"	m
+ReadFile	ydnn/YFlow.h	/^	std::vector<float> ReadFile(const char* file_name, std::vector<float>& data){$/;"	f	class:YCNN
+Resize	ydnn/GpuMem.h	/^	void Resize(size_t length, bool del=false)$/;"	f	class:GpuMem
+Resize	ydnn/YTypes.h	/^	void Resize(int size){$/;"	f	class:YData
+SUBDIRS	Debug/sources.mk	/^SUBDIRS := \\$/;"	m
+S_UPPER_SRCS	Debug/sources.mk	/^S_UPPER_SRCS := $/;"	m
+SetBias	ydnn/YLayer.h	/^	YConvolutionLayer& SetBias(YBias& bias){$/;"	f	class:YConvolutionLayer
+SetBias	ydnn/YLayer.h	/^	YConvolutionLayer& SetBias(YBias&& bias){$/;"	f	class:YConvolutionLayer
+SetBias	ydnn/YLayer.h	/^	YConvolutionLayer& SetBias(int c){$/;"	f	class:YConvolutionLayer
+SetBias	ydnn/YLayer.h	/^	YFullyConnectedLayer& SetBias(YBias& bias){$/;"	f	class:YFullyConnectedLayer
+SetBias	ydnn/YLayer.h	/^	YFullyConnectedLayer& SetBias(YBias&& bias){$/;"	f	class:YFullyConnectedLayer
+SetBiasData	ydnn/YLayer.h	/^	YConvolutionLayer& SetBiasData(std::vector<float> data){$/;"	f	class:YConvolutionLayer
+SetBiasData	ydnn/YLayer.h	/^	YFullyConnectedLayer& SetBiasData(std::vector<float> data){$/;"	f	class:YFullyConnectedLayer
+SetCapacity	ydnn/GpuMem.h	/^	inline void SetCapacity(size_t value){$/;"	f	class:GpuMem
+SetData	ydnn/YTypes.h	/^	void SetData(const float* h_data, size_t const length, bool const sync=false){$/;"	f	class:YData
+SetData	ydnn/YTypes.h	/^	void SetData(const std::vector<float> h_data, bool const sync=false){$/;"	f	class:YData
+SetData	ydnn/YTypes.h	/^	void SetData(float* const data, size_t const length){$/;"	f	class:YMatrix
+SetData	ydnn/YTypes.h	/^	void SetData(std::vector<float> data){$/;"	f	class:YFilter
+SetData	ydnn/YTypes.h	/^	void SetData(std::vector<float> data){$/;"	f	class:YMatrix
+SetFilter	ydnn/YLayer.h	/^	YConvolutionLayer& SetFilter(YFilter& filter){$/;"	f	class:YConvolutionLayer
+SetFilter	ydnn/YLayer.h	/^	YConvolutionLayer& SetFilter(YFilter&& filter){$/;"	f	class:YConvolutionLayer
+SetFilter	ydnn/YLayer.h	/^	YConvolutionLayer& SetFilter(int r, int s, int c, int k){$/;"	f	class:YConvolutionLayer
+SetFilterData	ydnn/YLayer.h	/^	YConvolutionLayer& SetFilterData(std::vector<float> data){$/;"	f	class:YConvolutionLayer
+SetInputTensor	ydnn/YLayer.h	/^	YActivationLayer& SetInputTensor(YTensor& input){$/;"	f	class:YActivationLayer
+SetInputTensor	ydnn/YLayer.h	/^	YActivationLayer& SetInputTensor(YTensor&& input){$/;"	f	class:YActivationLayer
+SetInputTensor	ydnn/YLayer.h	/^	YConvolutionLayer& SetInputTensor(YTensor& input){$/;"	f	class:YConvolutionLayer
+SetInputTensor	ydnn/YLayer.h	/^	YConvolutionLayer& SetInputTensor(YTensor&& input){$/;"	f	class:YConvolutionLayer
+SetInputTensor	ydnn/YLayer.h	/^	YConvolutionLayer& SetInputTensor(YTensor::Format format){$/;"	f	class:YConvolutionLayer
+SetInputTensor	ydnn/YLayer.h	/^	YConvolutionLayer& SetInputTensor(int n, int h, int w, int c){$/;"	f	class:YConvolutionLayer
+SetInputTensor	ydnn/YLayer.h	/^	YFullyConnectedLayer& SetInputTensor(YTensor& input){$/;"	f	class:YFullyConnectedLayer
+SetInputTensor	ydnn/YLayer.h	/^	YFullyConnectedLayer& SetInputTensor(YTensor&& input){$/;"	f	class:YFullyConnectedLayer
+SetInputTensor	ydnn/YLayer.h	/^	YLRNLayer& SetInputTensor(YTensor& input){$/;"	f	class:YLRNLayer
+SetInputTensor	ydnn/YLayer.h	/^	YLRNLayer& SetInputTensor(YTensor&& input){$/;"	f	class:YLRNLayer
+SetInputTensor	ydnn/YLayer.h	/^	YPoolingLayer& SetInputTensor(YTensor& input){$/;"	f	class:YPoolingLayer
+SetInputTensor	ydnn/YLayer.h	/^	YPoolingLayer& SetInputTensor(YTensor&& input){$/;"	f	class:YPoolingLayer
+SetInputTensor	ydnn/YLayer.h	/^	YSoftmaxLayer& SetInputTensor(YTensor& input){$/;"	f	class:YSoftmaxLayer
+SetInputTensor	ydnn/YLayer.h	/^	YSoftmaxLayer& SetInputTensor(YTensor&& input){$/;"	f	class:YSoftmaxLayer
+SetLength	ydnn/GpuMem.h	/^	inline void SetLength(size_t value){$/;"	f	class:GpuMem
+SetPadding	ydnn/YLayer.h	/^	YConvolutionLayer& SetPadding(YMatrix& padding){$/;"	f	class:YConvolutionLayer
+SetPadding	ydnn/YLayer.h	/^	YConvolutionLayer& SetPadding(YMatrix&& padding){$/;"	f	class:YConvolutionLayer
+SetPadding	ydnn/YLayer.h	/^	YConvolutionLayer& SetPadding(int n, int h, int w, int c){$/;"	f	class:YConvolutionLayer
+SetPadding	ydnn/YLayer.h	/^	YPoolingLayer& SetPadding(YMatrix& padding){$/;"	f	class:YPoolingLayer
+SetPadding	ydnn/YLayer.h	/^	YPoolingLayer& SetPadding(YMatrix&& padding){$/;"	f	class:YPoolingLayer
+SetStrides	ydnn/YLayer.h	/^	YConvolutionLayer& SetStrides(YMatrix& strides){$/;"	f	class:YConvolutionLayer
+SetStrides	ydnn/YLayer.h	/^	YConvolutionLayer& SetStrides(YMatrix&& strides){$/;"	f	class:YConvolutionLayer
+SetStrides	ydnn/YLayer.h	/^	YConvolutionLayer& SetStrides(int n, int h, int w, int c){$/;"	f	class:YConvolutionLayer
+SetStrides	ydnn/YLayer.h	/^	YPoolingLayer& SetStrides(YMatrix& strides){$/;"	f	class:YPoolingLayer
+SetStrides	ydnn/YLayer.h	/^	YPoolingLayer& SetStrides(YMatrix&& strides){$/;"	f	class:YPoolingLayer
+SetWeight	ydnn/YLayer.h	/^	YFullyConnectedLayer& SetWeight(YMatrix& weight){$/;"	f	class:YFullyConnectedLayer
+SetWeight	ydnn/YLayer.h	/^	YFullyConnectedLayer& SetWeight(YMatrix&& weight){$/;"	f	class:YFullyConnectedLayer
+SetWeightData	ydnn/YLayer.h	/^	YFullyConnectedLayer& SetWeightData(std::vector<float> data){$/;"	f	class:YFullyConnectedLayer
+SetWindowSize	ydnn/YLayer.h	/^	YPoolingLayer& SetWindowSize(YMatrix& window_size){$/;"	f	class:YPoolingLayer
+SetWindowSize	ydnn/YLayer.h	/^	YPoolingLayer& SetWindowSize(YMatrix&& window_size){$/;"	f	class:YPoolingLayer
+SynchronizeDeviceToHost	ydnn/YTypes.h	/^	void SynchronizeDeviceToHost(){$/;"	f	class:YData
+SynchronizeHostToDevice	ydnn/YTypes.h	/^	void SynchronizeHostToDevice(){$/;"	f	class:YData
+USER_OBJS	Debug/objects.mk	/^USER_OBJS :=$/;"	m
+W	ydnn/YTypes.h	/^	inline int W(){return this->s;}$/;"	f	class:YFilter
+W	ydnn/YTypes.h	/^	inline int W(){return this->w;}$/;"	f	class:YMatrix
+YActivationLayer	ydnn/YLayer.h	/^	YActivationLayer(cudnnHandle_t cudnn_handle)$/;"	f	class:YActivationLayer
+YActivationLayer	ydnn/YLayer.h	/^class YActivationLayer : public YLayer{$/;"	c
+YBias	ydnn/YTypes.h	/^	YBias()$/;"	f	class:YBias
+YBias	ydnn/YTypes.h	/^	YBias(int c)$/;"	f	class:YBias
+YBias	ydnn/YTypes.h	/^class YBias : public YTensor{$/;"	c
+YCNN	ydnn/YFlow.h	/^	YCNN()$/;"	f	class:YCNN
+YCNN	ydnn/YFlow.h	/^class YCNN {$/;"	c
+YConvolutionLayer	ydnn/YLayer.h	/^	YConvolutionLayer(cudnnHandle_t cudnn_handle)$/;"	f	class:YConvolutionLayer
+YConvolutionLayer	ydnn/YLayer.h	/^class YConvolutionLayer : public YLayer{$/;"	c
+YData	ydnn/YTypes.h	/^	YData()$/;"	f	class:YData
+YData	ydnn/YTypes.h	/^class YData{$/;"	c
+YFLOW_H_	ydnn/YFlow.h	9;"	d
+YFilter	ydnn/YTypes.h	/^	YFilter()$/;"	f	class:YFilter
+YFilter	ydnn/YTypes.h	/^	YFilter(int r, int s, int c, int k)$/;"	f	class:YFilter
+YFilter	ydnn/YTypes.h	/^class YFilter{$/;"	c
+YFullyConnectedLayer	ydnn/YLayer.h	/^	YFullyConnectedLayer()$/;"	f	class:YFullyConnectedLayer
+YFullyConnectedLayer	ydnn/YLayer.h	/^class YFullyConnectedLayer : public YLayer{$/;"	c
+YLAYER_H_	ydnn/YLayer.h	9;"	d
+YLRNLayer	ydnn/YLayer.h	/^	YLRNLayer(cudnnHandle_t cudnn_handle)$/;"	f	class:YLRNLayer
+YLRNLayer	ydnn/YLayer.h	/^class YLRNLayer : public YLayer{$/;"	c
+YLayer	ydnn/YLayer.h	/^	YLayer(cudnnHandle_t cudnn_handle)$/;"	f	class:YLayer
+YLayer	ydnn/YLayer.h	/^class YLayer{$/;"	c
+YMatrix	ydnn/YTypes.h	/^	YMatrix()$/;"	f	class:YMatrix
+YMatrix	ydnn/YTypes.h	/^	YMatrix(int n, int h, int w, int c)$/;"	f	class:YMatrix
+YMatrix	ydnn/YTypes.h	/^class YMatrix{$/;"	c
+YPoolingLayer	ydnn/YLayer.h	/^	YPoolingLayer(cudnnHandle_t cudnn_handle)$/;"	f	class:YPoolingLayer
+YPoolingLayer	ydnn/YLayer.h	/^class YPoolingLayer : public YLayer{$/;"	c
+YSoftmaxLayer	ydnn/YLayer.h	/^	YSoftmaxLayer(cudnnHandle_t cudnn_handle)$/;"	f	class:YSoftmaxLayer
+YSoftmaxLayer	ydnn/YLayer.h	/^class YSoftmaxLayer : public YLayer{$/;"	c
+YTYPES_H_	ydnn/YTypes.h	9;"	d
+YTensor	ydnn/YTypes.h	/^	YTensor()$/;"	f	class:YTensor
+YTensor	ydnn/YTypes.h	/^	YTensor(Format format)$/;"	f	class:YTensor
+YTensor	ydnn/YTypes.h	/^	YTensor(int n, int h, int w, int c)$/;"	f	class:YTensor
+YTensor	ydnn/YTypes.h	/^class YTensor : public YMatrix{$/;"	c
+_ERROR_UTIL_H_	ydnn/error_util.h	13;"	d
+activation	ydnn/YFlow.h	/^	YActivationLayer* activation;$/;"	m	class:YCNN
+algorithm	ydnn/YLayer.h	/^	cudnnConvolutionFwdAlgo_t algorithm;$/;"	m	class:YConvolutionLayer
+bias	ydnn/YLayer.h	/^	YBias bias;$/;"	m	class:YConvolutionLayer
+bias	ydnn/YLayer.h	/^	YBias bias;$/;"	m	class:YFullyConnectedLayer
+c	ydnn/YTypes.h	/^		int n, h, w, c;$/;"	m	struct:YMatrix::__anon1
+c	ydnn/YTypes.h	/^	int n, h, w, c;$/;"	m	class:YMatrix
+c	ydnn/YTypes.h	/^	int r, s, c;$/;"	m	class:YFilter
+capacity	ydnn/GpuMem.h	/^	size_t capacity;$/;"	m	class:GpuMem
+checkCUDNN	ydnn/error_util.h	27;"	d
+checkCublasErrors	ydnn/error_util.h	43;"	d
+checkCudaErrors	ydnn/error_util.h	35;"	d
+conv1	ydnn/YFlow.h	/^	YConvolutionLayer* conv1;$/;"	m	class:YCNN
+conv2	ydnn/YFlow.h	/^	YConvolutionLayer* conv2;$/;"	m	class:YCNN
+cudnn_handle	ydnn/YLayer.h	/^	cudnnHandle_t cudnn_handle;$/;"	m	class:YLayer
+d_data	ydnn/YTypes.h	/^	GpuMem<float> d_data;$/;"	m	class:YData
+data	ydnn/YTypes.h	/^	YData data;$/;"	m	class:YFilter
+data	ydnn/YTypes.h	/^	YData data;$/;"	m	class:YMatrix
+data_type	ydnn/YTypes.h	/^	cudnnDataType_t data_type;$/;"	m	class:YFilter
+data_type	ydnn/YTypes.h	/^	cudnnDataType_t data_type;$/;"	m	class:YTensor
+descriptor	ydnn/YLayer.h	/^	cudnnActivationDescriptor_t descriptor;$/;"	m	class:YActivationLayer
+descriptor	ydnn/YLayer.h	/^	cudnnConvolutionDescriptor_t descriptor;$/;"	m	class:YConvolutionLayer
+descriptor	ydnn/YLayer.h	/^	cudnnLRNDescriptor_t   descriptor;$/;"	m	class:YLRNLayer
+descriptor	ydnn/YLayer.h	/^	cudnnPoolingDescriptor_t descriptor;$/;"	m	class:YPoolingLayer
+descriptor	ydnn/YTypes.h	/^	cudnnFilterDescriptor_t descriptor;$/;"	m	class:YFilter
+descriptor	ydnn/YTypes.h	/^	cudnnTensorDescriptor_t descriptor;$/;"	m	class:YTensor
+fc1	ydnn/YFlow.h	/^	YFullyConnectedLayer* fc1;$/;"	m	class:YCNN
+fc2	ydnn/YFlow.h	/^	YFullyConnectedLayer* fc2;$/;"	m	class:YCNN
+filter	ydnn/YLayer.h	/^	YFilter filter;$/;"	m	class:YConvolutionLayer
+h	ydnn/YTypes.h	/^		int n, h, w, c;$/;"	m	struct:YMatrix::__anon1
+h	ydnn/YTypes.h	/^	int n, h, w, c;$/;"	m	class:YMatrix
+h_data	ydnn/YTypes.h	/^	std::vector<float> h_data;$/;"	m	class:YData
+handle	ydnn/YFlow.h	/^	cudnnHandle_t handle;$/;"	m	class:YCNN
+handle	ydnn/YLayer.h	/^	cublasHandle_t handle;$/;"	m	class:YFullyConnectedLayer
+initialized	ydnn/YLayer.h	/^	bool initialized;$/;"	m	class:YLayer
+initialized	ydnn/YTypes.h	/^	bool initialized;$/;"	m	class:YData
+input	ydnn/YLayer.h	/^	YTensor input;$/;"	m	class:YActivationLayer
+input	ydnn/YLayer.h	/^	YTensor input;$/;"	m	class:YConvolutionLayer
+input	ydnn/YLayer.h	/^	YTensor input;$/;"	m	class:YFullyConnectedLayer
+input	ydnn/YLayer.h	/^	YTensor input;$/;"	m	class:YLRNLayer
+input	ydnn/YLayer.h	/^	YTensor input;$/;"	m	class:YPoolingLayer
+input	ydnn/YLayer.h	/^	YTensor input;$/;"	m	class:YSoftmaxLayer
+k	ydnn/YTypes.h	/^	int k;$/;"	m	class:YFilter
+length	ydnn/GpuMem.h	/^	size_t length;$/;"	m	class:GpuMem
+lrn	ydnn/YFlow.h	/^	YLRNLayer* lrn;$/;"	m	class:YCNN
+main	main.cpp	/^int main()$/;"	f
+n	ydnn/YTypes.h	/^		int n, h, w, c;$/;"	m	struct:YMatrix::__anon1
+n	ydnn/YTypes.h	/^	int n, h, w, c;$/;"	m	class:YMatrix
+operator =	ydnn/GpuMem.h	/^	GpuMem& operator=(GpuMem& mem){$/;"	f	class:GpuMem
+operator =	ydnn/YTypes.h	/^	YData& operator=(YData& data){$/;"	f	class:YData
+operator =	ydnn/YTypes.h	/^	YFilter& operator=(YFilter& weight){$/;"	f	class:YFilter
+operator =	ydnn/YTypes.h	/^	YFilter& operator=(YFilter&& weight){$/;"	f	class:YFilter
+operator =	ydnn/YTypes.h	/^	YMatrix& operator=(YMatrix& matrix){$/;"	f	class:YMatrix
+operator =	ydnn/YTypes.h	/^	YMatrix& operator=(YMatrix&& matrix){$/;"	f	class:YMatrix
+operator =	ydnn/YTypes.h	/^	YTensor& operator=(YTensor& tensor){$/;"	f	class:YTensor
+operator =	ydnn/YTypes.h	/^	YTensor& operator=(YTensor&& tensor){$/;"	f	class:YTensor
+operator ==	ydnn/YTypes.h	/^	bool operator==(YFilter& weight){$/;"	f	class:YFilter
+operator ==	ydnn/YTypes.h	/^	bool operator==(YMatrix& size){$/;"	f	class:YMatrix
+output	ydnn/YLayer.h	/^	YTensor output;$/;"	m	class:YActivationLayer
+output	ydnn/YLayer.h	/^	YTensor output;$/;"	m	class:YConvolutionLayer
+output	ydnn/YLayer.h	/^	YTensor output;$/;"	m	class:YFullyConnectedLayer
+output	ydnn/YLayer.h	/^	YTensor output;$/;"	m	class:YLRNLayer
+output	ydnn/YLayer.h	/^	YTensor output;$/;"	m	class:YPoolingLayer
+output	ydnn/YLayer.h	/^	YTensor output;$/;"	m	class:YSoftmaxLayer
+padding	ydnn/YLayer.h	/^	YMatrix padding;$/;"	m	class:YConvolutionLayer
+padding	ydnn/YLayer.h	/^	YMatrix padding;$/;"	m	class:YPoolingLayer
+pool1	ydnn/YFlow.h	/^	YPoolingLayer* pool1;$/;"	m	class:YCNN
+pool2	ydnn/YFlow.h	/^	YPoolingLayer* pool2;$/;"	m	class:YCNN
+ptr	ydnn/GpuMem.h	/^	T* ptr;$/;"	m	class:GpuMem
+r	ydnn/YTypes.h	/^	int r, s, c;$/;"	m	class:YFilter
+s	ydnn/YTypes.h	/^	int r, s, c;$/;"	m	class:YFilter
+softmax	ydnn/YFlow.h	/^	YSoftmaxLayer* softmax;$/;"	m	class:YCNN
+strides	ydnn/YLayer.h	/^	YMatrix strides;$/;"	m	class:YConvolutionLayer
+strides	ydnn/YLayer.h	/^	YMatrix strides;$/;"	m	class:YPoolingLayer
+w	ydnn/YTypes.h	/^		int n, h, w, c;$/;"	m	struct:YMatrix::__anon1
+w	ydnn/YTypes.h	/^	int n, h, w, c;$/;"	m	class:YMatrix
+weight	ydnn/YLayer.h	/^	YMatrix weight;$/;"	m	class:YFullyConnectedLayer
+window_size	ydnn/YLayer.h	/^	YMatrix window_size;$/;"	m	class:YPoolingLayer
+workspace	ydnn/YFlow.h	/^	GpuMem<float> workspace;$/;"	m	class:YCNN
+workspace_size	ydnn/YLayer.h	/^	size_t workspace_size;$/;"	m	class:YConvolutionLayer
+~GpuMem	ydnn/GpuMem.h	/^	virtual ~GpuMem(){$/;"	f	class:GpuMem
+~YActivationLayer	ydnn/YLayer.h	/^	virtual ~YActivationLayer(){$/;"	f	class:YActivationLayer
+~YCNN	ydnn/YFlow.h	/^	virtual ~YCNN()$/;"	f	class:YCNN
+~YConvolutionLayer	ydnn/YLayer.h	/^	virtual ~YConvolutionLayer(){$/;"	f	class:YConvolutionLayer
+~YFullyConnectedLayer	ydnn/YLayer.h	/^	virtual ~YFullyConnectedLayer(){$/;"	f	class:YFullyConnectedLayer
+~YLRNLayer	ydnn/YLayer.h	/^	virtual ~YLRNLayer(){$/;"	f	class:YLRNLayer
+~YLayer	ydnn/YLayer.h	/^	virtual ~YLayer(){};$/;"	f	class:YLayer
+~YMatrix	ydnn/YTypes.h	/^	virtual ~YMatrix()$/;"	f	class:YMatrix
+~YPoolingLayer	ydnn/YLayer.h	/^	virtual ~YPoolingLayer(){$/;"	f	class:YPoolingLayer
+~YSoftmaxLayer	ydnn/YLayer.h	/^	virtual ~YSoftmaxLayer(){$/;"	f	class:YSoftmaxLayer
+~YTensor	ydnn/YTypes.h	/^	virtual ~YTensor(){$/;"	f	class:YTensor

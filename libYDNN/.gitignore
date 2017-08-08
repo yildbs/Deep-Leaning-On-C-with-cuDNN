@@ -1,0 +1,7 @@
+*txt
+Debug
+Debug/*
+Release
+Release/*
+x64
+x64/*

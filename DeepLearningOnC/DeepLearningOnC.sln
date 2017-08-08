@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example-YDNN", "..\Example-YDNN\Example-YDNN.vcxproj", "{ACAA6630-84A3-40E1-B39D-33EBE63252B9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2E15134A-D6E5-4ED0-99C8-B2969B69DD69} = {2E15134A-D6E5-4ED0-99C8-B2969B69DD69}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libYCuda", "..\libYCuda\libYCuda.vcxproj", "{ED351040-0AC1-4D00-A7F9-3C8CC194EC44}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libYDNN", "..\libYDNN\YDNN.vcxproj", "{2E15134A-D6E5-4ED0-99C8-B2969B69DD69}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED351040-0AC1-4D00-A7F9-3C8CC194EC44} = {ED351040-0AC1-4D00-A7F9-3C8CC194EC44}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Example-YDNNwithBatchResizer", "..\Example-YDNNwithBatchResizer\Example-YDNNwithBatchResizer.vcxproj", "{C3894D7E-9F3B-41BA-BE7A-FEBC7DFEB40F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED351040-0AC1-4D00-A7F9-3C8CC194EC44} = {ED351040-0AC1-4D00-A7F9-3C8CC194EC44}
+		{2E15134A-D6E5-4ED0-99C8-B2969B69DD69} = {2E15134A-D6E5-4ED0-99C8-B2969B69DD69}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACAA6630-84A3-40E1-B39D-33EBE63252B9}.Debug|x64.ActiveCfg = Debug|x64
+		{ACAA6630-84A3-40E1-B39D-33EBE63252B9}.Debug|x64.Build.0 = Debug|x64
+		{ACAA6630-84A3-40E1-B39D-33EBE63252B9}.Release|x64.ActiveCfg = Release|x64
+		{ACAA6630-84A3-40E1-B39D-33EBE63252B9}.Release|x64.Build.0 = Release|x64
+		{ED351040-0AC1-4D00-A7F9-3C8CC194EC44}.Debug|x64.ActiveCfg = Debug|x64
+		{ED351040-0AC1-4D00-A7F9-3C8CC194EC44}.Debug|x64.Build.0 = Debug|x64
+		{ED351040-0AC1-4D00-A7F9-3C8CC194EC44}.Release|x64.ActiveCfg = Release|x64
+		{ED351040-0AC1-4D00-A7F9-3C8CC194EC44}.Release|x64.Build.0 = Release|x64
+		{2E15134A-D6E5-4ED0-99C8-B2969B69DD69}.Debug|x64.ActiveCfg = Debug|x64
+		{2E15134A-D6E5-4ED0-99C8-B2969B69DD69}.Debug|x64.Build.0 = Debug|x64
+		{2E15134A-D6E5-4ED0-99C8-B2969B69DD69}.Release|x64.ActiveCfg = Release|x64
+		{2E15134A-D6E5-4ED0-99C8-B2969B69DD69}.Release|x64.Build.0 = Release|x64
+		{C3894D7E-9F3B-41BA-BE7A-FEBC7DFEB40F}.Debug|x64.ActiveCfg = Debug|x64
+		{C3894D7E-9F3B-41BA-BE7A-FEBC7DFEB40F}.Debug|x64.Build.0 = Debug|x64
+		{C3894D7E-9F3B-41BA-BE7A-FEBC7DFEB40F}.Release|x64.ActiveCfg = Release|x64
+		{C3894D7E-9F3B-41BA-BE7A-FEBC7DFEB40F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
