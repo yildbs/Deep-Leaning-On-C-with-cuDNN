@@ -1,5 +1,3 @@
-# The core source codes of this project were deleted.
-
 # Deep Leaning On C with cuDNN
 The project for implementing deep learning(CNN) with cuDNN and C
 
